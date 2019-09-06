@@ -1,0 +1,26 @@
+#site-status {
+    padding:20px 0;
+}
+#site-status h2{
+    margin-bottom: 30px;
+}
+.status-box{
+    padding:30px;
+    border-radius:10px;
+    margin:20px 0;
+    font-size: 15px;
+    box-shadow: 0 2px 40px 0 rgba(110, 130, 208, 0.18);
+}
+.status-box .fa{
+    font-size:30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#bottom-section {
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+    padding:50px 0;
+}
+#bottom-section h1{
+    margin-top:20px;
+    color:#fff;
+}

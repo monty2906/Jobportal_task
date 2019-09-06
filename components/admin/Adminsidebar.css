@@ -1,0 +1,71 @@
+.inactive {
+    color: #fff;
+    text-decoration: none;
+}
+
+.active {
+    color: red;
+    text-decoration: none;
+  }
+
+.mainhead{
+  padding-left:20px;
+  padding-top:20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.mylogo{
+  color: #fff !important;
+}
+.sidebar.mysidebar{
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+  url("images/sidebar-2.jpg");
+  opacity: 0.9;
+  /* background-color: rgb(42, 41, 46); */
+  /* background-blend-mode: screen; */
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+/* .sidebar .nav li .dropdown-menu a, .sidebar .nav li a{
+  color: #fff !important;
+} */
+.sidebar .nav li>a:focus, .sidebar .nav li>a:hover {
+    background-color: transparent;
+    outline: none;
+    width: 200px !important;
+  }
+.notifications{
+  margin-left: 10px;
+  width:80%;
+  border: 1px solid;
+  /*background-color:#e6e8e1;*/
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.notificationtable{
+  padding: 10px;
+  box-shadow: 0px 0px 5px 3px #888888;
+}
+.pagination {
+    display: inline-block;
+    margin-top: 5px;
+    /*float:right;*/
+  }
+  .pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  .pagination a.active {
+    background-color: rgb(62, 87, 228);
+    color: white;
+    border-radius: 50%;
+  }
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 50%;
+  }

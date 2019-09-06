@@ -1,0 +1,137 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/* Header */
+
+ul{
+    padding: 0;
+    list-style: none;
+    background: transparent;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+}
+ul li a{
+    display: block;
+    padding: 8px 25px;
+    color: #333;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #fff;
+    background-image: #6db9ef;
+}
+ul li ul.dropdown{
+    min-width: 100%;
+    background: #0a0c0d;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+
+.dropdown a:hover{
+    background-image: linear-gradient(to right,#6db9ef, #7ce08a);
+}
+
+.menu-bar{
+    background-image: linear-gradient(to right,#6db9ef, #7ce08a);
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px !important;
+}
+.nav-link{
+    font-size: 16px;
+    border:1px solid #fff;
+    color:#fff !important;
+    margin: 4px;
+}
+.logo{
+    padding-top: 10px;
+}
+.navbar-nav{
+    text-align: right;
+}
+.menu-bar .navbar-toggler{
+    padding-right:0;
+    outline: none;
+    border:none;
+}
+
+.banner{
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/pic.png);
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+}
+.banner h1 {
+    padding-top:170px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.search-job{
+    padding:30px 0;
+    margin:-50px 6% 50px;
+    background-image: linear-gradient(to right,#6db9ef, #7ce08a);
+}
+.search-job .form-control{
+    max-width:350px;
+    height: 30px;
+    font-size: 14px;
+    display:inline-flex;
+    margin:10px 5px;
+    border-radius: 0;
+    box-shadow: none !important;
+    border: none !important;
+}
+.search-job .btn-primary{
+    font-size: 12px;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    display: inline-flex;
+    margin:5px;
+    padding: 5px 20px;
+}
+
+/* Top recruiters */
+
+#recruiters {
+    padding-top:50px;
+    padding-bottom:100px;
+}
+#recruiters h2 {
+    text-align: center;
+    padding-bottom:40px;
+}
+h2::before{
+    content: '';
+    background-image: linear-gradient(to right,#6db9ef, #7ce08a);
+    width:50px;
+    height:30px;
+    position: absolute;
+    z-index: -10;
+    margin-top: -15px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 90px;
+}
+#recruiters img{
+    max-width: 100px;
+    margin:10px 20px;
+}
